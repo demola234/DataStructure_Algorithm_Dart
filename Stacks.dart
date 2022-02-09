@@ -28,6 +28,8 @@ void main() {
 
   for (var i = 0; i < words.length; i++) {
     letters.pop();
+    var v = letters.peek;
+    print(v);
   }
 
   if (rwords == words) {
@@ -35,4 +37,6 @@ void main() {
   } else {
     print(words + " This is not probagated");
   }
+
+//Example 2
 }
