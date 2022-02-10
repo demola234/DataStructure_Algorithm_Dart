@@ -20,7 +20,12 @@ void main() {
     print("This contains Hello");
   }
 
+  gfg.toSet();
+
   gfg.clear();
   print(gfg);
   print(gfg_list);
+
+//Remove Function
+  gfg.remove("hello");
 }
